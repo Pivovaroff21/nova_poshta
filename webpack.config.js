@@ -21,9 +21,9 @@ module.exports = {
     rules: [
       {
         test: /\.vue$/,
-        loader: "vue-loader",
-      },
-    ],
+        loader: 'vue-loader'
+      }
+    ]
   },
   plugins: [
     new webpack.DefinePlugin({
